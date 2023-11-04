@@ -54,11 +54,21 @@ public class Main {
     }
 
     public static void task4() {
+        var deliveryDistance = 95;
+        if (deliveryDistance < 20) {
+            System.out.println( "Потребуется " + deliveryDistance + " дней + срок доставки " );
+        } else if (deliveryDistance < 60) {
+            System.out.println( "Потребуется " + deliveryDistance + " дней + срок доставки " );
+        } else if (deliveryDistance < 100) {
+            System.out.println( "Потребуется " + deliveryDistance + " дней + срок доставки " );
+        } else {
+            System.out.println("доставки нет");
 
-
+        }
     }
 
     public static void task5() {
+
 
     }
 }
