@@ -1,5 +1,63 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+    }
+
+    public static void task1() {
+        var clientOS = 0;
+        if (clientOS == 0) {
+            System.out.println("cкачайте приложение для IOS");
+        } else {   if (clientOS == 1) {
+                System.out.println("cкачайте приложение для Android");
+            } else {
+                    System.out.println(" IOS не поддерживается");
+
+                        }
+                    }
+
+                }
+
+    public static void task2() {
+        var year = 2018;
+        if (year == 0) {
+            if (year >= 2015) {
+                System.out.println("cкачайте приложение для iOS");
+            } else {
+                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            }
+        } else if (year == 1) {
+            if (year >= 2015) {
+                System.out.println("cкачайте приложение для Android");
+            } else {
+                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            }
+        } else {
+            System.out.println("такая версия iOS не поддерживается");
+        }
+    }
+
+
+    public static void task3() {
+        var year = 2124;
+        boolean isLeapYear = (year % 4 ==0 && year % 100 != 0 || year % 400 == 0) && year > 1584;
+        if (isLeapYear) {
+            System.out.println( " год высокосный " + year );
+        } else {
+            System.out.println( " год НЕ высокосный " + year );
+        }
+
+
+    }
+
+    public static void task4() {
+
+    }
+
+    public static void task5() {
+
     }
 }
