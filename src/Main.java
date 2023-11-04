@@ -42,7 +42,7 @@ public class Main {
 
 
     public static void task3() {
-        var year = 2124;
+        var year = 2021;
         boolean isLeapYear = (year % 4 ==0 && year % 100 != 0 || year % 400 == 0) && year > 1584;
         if (isLeapYear) {
             System.out.println( " год высокосный " + year );
@@ -54,6 +54,7 @@ public class Main {
     }
 
     public static void task4() {
+
 
     }
 
