@@ -55,13 +55,13 @@ public class Main {
     }
 
     public static void task4() {
-        var deliveryDistance = 95;
+        var deliveryDistance = 33;
         if (deliveryDistance < 20) {
-            System.out.println("Потребуется " + deliveryDistance + " дней + срок доставки ");
+            System.out.println("доставка займет 1 день" + deliveryDistance );
         } else if (deliveryDistance < 60) {
-            System.out.println("Потребуется " + deliveryDistance + " дней + срок доставки ");
+            System.out.println("доставка займет 2 деня " + deliveryDistance );
         } else if (deliveryDistance < 100) {
-            System.out.println("Потребуется " + deliveryDistance + " дней + срок доставки ");
+            System.out.println("доставка займет 3 деня " + deliveryDistance );
         } else {
             System.out.println("доставки нет");
 
