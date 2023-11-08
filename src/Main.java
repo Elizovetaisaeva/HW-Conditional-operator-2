@@ -10,7 +10,7 @@ public class Main {
     public static void task1() {
         var clientOS = 0;
         if (clientOS == 0) {
-            System.out.println("cкачайте приложение для IOS");
+            System.out.println("cкачайте приложение для ios");
         } else {
             if (clientOS == 1) {
                 System.out.println("cкачайте приложение для Android");
@@ -24,13 +24,14 @@ public class Main {
 
     public static void task2() {
         var year = 2018;
-        if (year == 0) {
+        var os = 0;
+    if (os == 0) {
             if (year >= 2015) {
                 System.out.println("cкачайте приложение для iOS");
             } else {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
             }
-        } else if (year == 1) {
+        } else if (os == 1) {
             if (year >= 2015) {
                 System.out.println("cкачайте приложение для Android");
             } else {
